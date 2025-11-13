@@ -5,7 +5,7 @@ weather = ("what is the weather like today? (sunny/rainy/cold): ").lower()
 
 # provide clothing recommendation 
 if weather == "sunny":
-    print("waer a t_shirt and sunglasses.")
+    print("wear a t_shirt and sunglasses.")
 elif weather == "rainny":
     print("don't forget umbrella and a raincoat.")
 elif weather == "cold":

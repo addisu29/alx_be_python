@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from library_system import Book, EBook, PrintBook, Library
 
 def main():
@@ -20,22 +19,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-=======
-from book_class import Book
-
-def main():
-    # Creating an instance of Book
-    my_book = Book("1984", "George Orwell", 1949)
-
-    # Demonstrating the __str__ method
-    print(my_book)  # Expected to use __str__
-
-    # Demonstrating the __repr__ method
-    print(repr(my_book))  # Expected to use __repr__
-
-    # Deleting a book instance to trigger __del__
-    del my_book
-
-if __name__ == "__main__":
-    main()
->>>>>>> 4b9c115713b95e8ccbc80c7d955f233c46a86175
